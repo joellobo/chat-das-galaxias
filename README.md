@@ -20,6 +20,7 @@ A lógica do aplicativo é dividida entre vários pacotes.
   O chamado * core api *. É aqui que colocamos os Comandos, Eventos e Consultas.
   Como comandos, eventos e consultas são imutáveis, usamos o Kotlin para defini-los. Kotlin permite que você
   definir de forma concisa cada evento, comando e consulta em uma única linha.
+>>> Refatorando para Java <<<<
 - `com.arquitetodasgalaxias.chat.query.rooms.messages`
   Contém as projeções (também chamadas de modelo de exibição ou modelo de consulta) para as mensagens que foram transmitidas em um
   sala específica. Este pacote contém os manipuladores de eventos para atualizar as projeções,
